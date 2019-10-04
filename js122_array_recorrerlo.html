@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrays - formas para recorrerlo</title>
+
+	<script type="text/javascript">
+		
+		// opcion 2  con []
+		var dias = ["domingo", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado"];
+		var longitud;
+		for (i in dias) { //Puede que no funcione en IE
+			document.write("Hoy es " + dias[i] + "<br/>");
+		}
+		document.write('<br>');
+		
+		for (i=0; i<=dias.length-1;i++) {
+			document.write("Hoy es " + dias[i] + "<br/>");
+		}
+
+		
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>
